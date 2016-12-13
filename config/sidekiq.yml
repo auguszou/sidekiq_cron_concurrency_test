@@ -1,0 +1,11 @@
+---
+:tag: Sidekiq-Cron
+:concurrency: 5
+:logfile: ./log/sidekiq.log
+:pidfile: ./tmp/pids/sidekiq.pid
+staging:
+  :concurrency: 5
+production:
+  :concurrency: 8
+:queues:
+  - sidekiq_cron

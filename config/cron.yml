@@ -1,0 +1,5 @@
+sidekiq_cron:
+  cron: "5 * * * *"
+  class: "SidekiqCronWorker"
+  queue: "sidekiq_cron"
+

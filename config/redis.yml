@@ -1,0 +1,6 @@
+production:
+  url: redis://192.168.56.101:6379
+development:
+  url: redis://192.168.56.101:6379
+staging:
+  url: redis://192.168.56.101:6379
